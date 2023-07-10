@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.appItems {
+  display: flex;
+  border-style: solid;
+  border-color: #b5b7c4;
+  width: 350px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.starImageBtn {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.starImage {
+  height: 25px;
+  width: 25px;
+}

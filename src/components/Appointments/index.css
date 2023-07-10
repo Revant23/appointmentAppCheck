@@ -1,0 +1,83 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'roboto';
+}
+.card-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 10px;
+}
+.main-heading {
+  color: black;
+}
+.input-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  height: 40px;
+  width: 300px;
+  border-style: inset;
+  border-color: #b5b7c4;
+}
+
+.input-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #b5b7c4;
+}
+
+.Addbutton {
+  width: 70px;
+  padding: 10px;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border-width: 0px;
+  border-radius: 10px;
+}
+
+.AppointmentList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appStartedbtnNotClicked {
+  background-color: transparent;
+  color: #8b5cf6;
+  border-style: solid;
+  border-color: #9897f0;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 25px;
+}
+
+.appStartedbtnClicked {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 25px;
+  border-width: 0px;
+}
